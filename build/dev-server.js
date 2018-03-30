@@ -35,7 +35,7 @@ app.use(bodyPerser.urlencoded({
 var mongoose = require('mongoose')
 var morgan = require('morgan')
 mongoose.Promise = require('bluebird')
-global.db = mongoose.connect('mongodb://localhost:27017/vuebill')
+global.db = mongoose.connect('mongodb://118.24.27.231:27017/vuebill')
 
 var devMiddleware = require('webpack-dev-middleware')(compiler, {
   publicPath: webpackConfig.output.publicPath,

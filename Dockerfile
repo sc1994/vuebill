@@ -8,5 +8,5 @@ RUN npm install
 
 EXPOSE 8089
 
-CMD [ "npm", "start" ]
+CMD [ "npm", "run","dev" ]
 
